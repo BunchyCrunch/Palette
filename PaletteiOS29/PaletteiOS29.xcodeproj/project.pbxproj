@@ -17,6 +17,10 @@
 		582214E5235F5128009A4EF5 /* ImaggaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582214E4235F5128009A4EF5 /* ImaggaColor.swift */; };
 		582214E8235F517C009A4EF5 /* ImaggaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582214E7235F517C009A4EF5 /* ImaggaService.swift */; };
 		582214EB235F51BD009A4EF5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582214EA235F51BD009A4EF5 /* UIColorExtension.swift */; };
+		FCAB41FF235F5E0500F3B979 /* PaletteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAB41FE235F5E0500F3B979 /* PaletteListViewController.swift */; };
+		FCAB4203235F635600F3B979 /* PaletteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAB4202235F635600F3B979 /* PaletteTableViewCell.swift */; };
+		FCAB4206235F645100F3B979 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAB4205235F645100F3B979 /* UIViewExtension.swift */; };
+		FCAB4208235F74AE00F3B979 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAB4207235F74AE00F3B979 /* ColorPaletteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		582214E4235F5128009A4EF5 /* ImaggaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaggaColor.swift; sourceTree = "<group>"; };
 		582214E7235F517C009A4EF5 /* ImaggaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaggaService.swift; sourceTree = "<group>"; };
 		582214EA235F51BD009A4EF5 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FCAB41FE235F5E0500F3B979 /* PaletteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteListViewController.swift; sourceTree = "<group>"; };
+		FCAB4202235F635600F3B979 /* PaletteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTableViewCell.swift; sourceTree = "<group>"; };
+		FCAB4205235F645100F3B979 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FCAB4207235F74AE00F3B979 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +72,8 @@
 		582214C6235F4FF8009A4EF5 /* PaletteiOS29 */ = {
 			isa = PBXGroup;
 			children = (
-				582214EC235F51D6009A4EF5 /* ViewControllers */,
+				FCAB4204235F635900F3B979 /* Custom Views */,
+				FCAB41FB235F5DE500F3B979 /* View Controllers */,
 				582214E9235F51A6009A4EF5 /* Extensions */,
 				582214E1235F5104009A4EF5 /* Models */,
 				582214E6235F514E009A4EF5 /* ImaggaService */,
@@ -116,15 +125,26 @@
 			isa = PBXGroup;
 			children = (
 				582214EA235F51BD009A4EF5 /* UIColorExtension.swift */,
+				FCAB4205235F645100F3B979 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		582214EC235F51D6009A4EF5 /* ViewControllers */ = {
+		FCAB41FB235F5DE500F3B979 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FCAB41FE235F5E0500F3B979 /* PaletteListViewController.swift */,
 			);
-			path = ViewControllers;
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FCAB4204235F635900F3B979 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCAB4202235F635600F3B979 /* PaletteTableViewCell.swift */,
+				FCAB4207235F74AE00F3B979 /* ColorPaletteView.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,11 +219,15 @@
 			files = (
 				582214C8235F4FF8009A4EF5 /* AppDelegate.swift in Sources */,
 				582214E3235F5113009A4EF5 /* UnsplashPhoto.swift in Sources */,
+				FCAB4206235F645100F3B979 /* UIViewExtension.swift in Sources */,
 				582214CA235F4FF8009A4EF5 /* SceneDelegate.swift in Sources */,
 				582214EB235F51BD009A4EF5 /* UIColorExtension.swift in Sources */,
 				582214E8235F517C009A4EF5 /* ImaggaService.swift in Sources */,
+				FCAB4203235F635600F3B979 /* PaletteTableViewCell.swift in Sources */,
 				582214DE235F50CE009A4EF5 /* UnsplashService.swift in Sources */,
+				FCAB41FF235F5E0500F3B979 /* PaletteListViewController.swift in Sources */,
 				582214E0235F50ED009A4EF5 /* UnsplashRoute.swift in Sources */,
+				FCAB4208235F74AE00F3B979 /* ColorPaletteView.swift in Sources */,
 				582214E5235F5128009A4EF5 /* ImaggaColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
